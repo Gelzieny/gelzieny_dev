@@ -17,7 +17,7 @@ export function Sidebar() {
 	return (
 		<aside className="fixed top-0 left-0 bg-[var(--body-color)] border-r border-[1px] border-solid border-black/5 p-10 w-[110px] min-h-screen flex flex-col justify-between z-10 items-center">
 			<a href="#" className="nav__logo">
-				<img src="./icons/logo.svg" alt="logo" />
+				<img src="./icons/logo2.svg" alt="logo" />
 			</a>
 			<nav className="nav">
 				<div className="nav__menu">
