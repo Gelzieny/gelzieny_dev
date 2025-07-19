@@ -34,6 +34,7 @@ export function Sidebar() {
 					className="text-[hsl(245,15%,65%)] text-[var(--small-font-size)] -rotate-180 [writing-mode:vertical-rl]"
 					style={{ display: "inline-flex", alignItems: "center", gap: 4 }}
 				>
+					2024
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						width="14"
