@@ -192,3 +192,47 @@ img {
   animation: button-push 0.3s linear 1;
 }
 
+
+@keyframes tchauzinho {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(15deg); }
+  50% { transform: rotate(-15deg); }
+  75% { transform: rotate(15deg); }
+}
+
+.tchauzinho {
+  animation: tchauzinho 2s ease-in-out infinite;
+  transform-origin: 70% 70%; /* Ajuste o ponto de rotação conforme o desenho da mão */
+}
+
+.home_subtitle{
+  position: relative;
+  font-size: var(--h3-font-size);
+  padding-left: 5.4rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.home_subtitle::before{
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 1px;
+  top: 1rem;
+  left: 0;
+  background-color: var(--text-color);
+}
+
+@keyframes profile__anime {
+  0%,
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+}
+
+.profile-anime {
+  animation: profile__anime 8s ease-in-out infinite 1s;
+}
