@@ -38,7 +38,7 @@ export function InfoSection() {
 				href="#contact"
 				className="inline-flex items-center gap-2 bg-gray-800 hover:bg-gray-700 text-white font-semibold px-5 py-3 rounded-md transition-colors duration-300"
 			>
-				Fale Conosco
+				Entre em contato
 				<img
 					src="./icons/send.svg"
 					alt="Ícone de enviar"

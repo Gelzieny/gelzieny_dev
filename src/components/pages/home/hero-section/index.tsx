@@ -12,12 +12,12 @@ export function HeroSection() {
 				<InfoSection />
 				<div className="w-full max-w-[300px] mx-auto ">
 					<Image
-						src="/img/user.jpeg"
-						alt="Foto de perfil de Gelzieny Rezende"
+						className="w-[300px] h-[300px] lg:w-[420px] lg:h-[404px] mb-6 lg:mb-0 
+							rounded-lg object-cover home_img"
 						width={420}
 						height={404}
-						style={{ borderRadius: "0.75rem" }}
-						priority
+						src="/img/user_prof.png"
+						alt="Foto de perfil de Gelzieny Rezende"
 					/>
 				</div>
 				<ScrollDown />
